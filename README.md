@@ -1,1 +1,1 @@
-A showcase of my projets as a junior developer.
+A showcase of my projects as a junior developer.
