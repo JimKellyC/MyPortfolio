@@ -151,6 +151,7 @@ footer {
 
   .section-title {
     font-size: 1.3rem;
+    border: none;
   }
 
   .about {
