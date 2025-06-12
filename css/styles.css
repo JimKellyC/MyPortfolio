@@ -131,6 +131,64 @@ nav a:hover {
   line-height: 1.7;
 }
 
+.contact {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin: auto 0 0 0;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.contact-form label {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.2rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent, #0078d7);
+  outline: none;
+}
+.contact-form button {
+  padding: 0.8rem 1.5rem;
+  background: var(--accent, #0078d7);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: flex-end;
+}
+.contact-form button:hover {
+  background: #005fa3;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem 0;
