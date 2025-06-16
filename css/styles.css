@@ -28,13 +28,13 @@ header {
 }
 
 header h1 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   margin-bottom: 0.5rem;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #bfc0c0;
 }
 
@@ -140,7 +140,7 @@ nav a:hover {
 .contact-form {
   width: 100%;
   max-width: 500px;
-  margin: auto 0 0 0;
+  margin: auto;
   padding: 2rem;
   background: #fff;
   border-radius: 8px;
