@@ -1,69 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jim-Kelly - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
 </head>
-
 <body>
     <header>
-        <h1>Jim-Kelly Clervoyant</h1>
-        <p>Développeur Web Junior</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1>Jim-Kelly's Portfolio</h1>
+        <p>Showcasing my coding projects</p>
     </header>
-    <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <section id="about" class="about">
-            <p>
-                Je souhaite contribuer à une équipe ou à une entreprise dynamique où mes compétences en informatique
-                seront mises en valeur. J'ai acquis de l'expérience dans la création
-                de sites modernes et réactifs. J'aime relever de nouveaux défis techniques et collaborer avec d'autres
-                professionnels pour atteindre des objectifs communs. Mon objectif est de continuer à apprendre et à
-                évoluer dans le domaine de la technologie.
-            </p>
-        </section>
-        <section id="projects">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <div>
-                        <div class="project-title">Passer Rating Calculator</div>
-                        <div class="project-desc">A calculator that assesses the efficiency of a quarterback's passing
-                            performance in American football (NFL)</div>
-                    </div>
-                    <a class="project-link" href="https://jimkellyc.github.io/PasserRatingNFL/" target="_blank">View
-                        Project</a>
-                </div>
-                <div class="project-card">
-                    <div>
-                        <div class="project-title">Switch</div>
-                        <div class="project-desc">A light switch app</div>
-                    </div>
-                    <a class="project-link" href="https://jimkellyc.github.io/Light-Switch/" target="_blank">View
-                        Project</a>
-                </div>
-            </div>
-        </section>
-        <section id="contact" style="margin-top:2.5rem;">
-            <h2 class="section-title">Contact</h2>
-            <p>
-                Feel free to reach out via <a href="mailto:jimkellyclervoyant@gmail.com"
-                    style="color:var(--accent);text-decoration:underline;">email</a> or connect with me on
-                <a href="https://www.linkedin.com/in/jim-kelly-clervoyant/"
-                    style="color:var(--accent);text-decoration:underline;">LinkedIn</a>.
-            </p>
-        </section>
-    </div>
-    <footer>
-        &copy; 2025 Jim Kelly Clervoyant. All rights reserved.
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Jim-Kelly Clervoyant, a passionate developer with a love for coding and problem-solving. I enjoy creating web applications and exploring new technologies.</p>
+    </section>
+    <section class="projects" id="projects">
+        <!-- Projects will be injected here by JS -->
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Jim-Kelly Clervoyant</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

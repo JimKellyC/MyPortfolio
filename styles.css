@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #8198c2 0%, #2a5298 50%, #00ffd0 100%);
+  color: #fff;
+  font-family: "Poppins", Arial, sans-serif;
+  min-height: 100vh;
+  font-weight: bold;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+header p {
+  color: #aaa;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.about, .footer {
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.project-card {
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  width: 280px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  background: #1a1a1a;
+}
+.project-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #00ffd0;
+}
+.project-desc {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.project-link {
+  color: #00ffd0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.project-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
