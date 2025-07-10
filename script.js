@@ -4,6 +4,47 @@ const projects = [
     desc: "A web application that calculates NFL passer ratings based on user input.",
     link: "https://jimkellyc.github.io/PasserRatingNFL/",
   },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  {
+    title: "NFL Passer Rating Calculator",
+    desc: "A web application that calculates NFL passer ratings based on user input.",
+    link: "https://jimkellyc.github.io/PasserRatingNFL/",
+  },
+  
 ];
 
 const projectsContainer = document.getElementById("projects");
