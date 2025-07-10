@@ -37,9 +37,9 @@ body {
   color: var(--FONT-COLOR);
 }
 
-.navbar li:hover,
-.navbar li:focus {
-  border-bottom: 1px solid #fff;
+.navbar li a:hover,
+.navbar li a:focus {
+  border-bottom: 5px solid #fff;
 }
 
 .about {
@@ -136,13 +136,12 @@ body {
 }
 
 @media (max-width: 700px) {
-
-  .navbar ul{
-    display:grid;
+  .navbar ul {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .about h1{
+  .about h1 {
     font-size: 2em;
   }
   .projects {
