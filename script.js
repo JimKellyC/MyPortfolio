@@ -4,7 +4,11 @@ const projects = [
     desc: "A web application that calculates NFL passer ratings based on user input.",
     link: "https://jimkellyc.github.io/PasserRatingNFL/",
   },
-
+  {
+    title: "To do List App",
+    desc: "A simple to-do list application that allows users to add, remove, and mark tasks as completed.",
+    link: "https://jimkellyc.github.io/ToDoList/",
+  }
 ];
 
 const projectsContainer = document.getElementById("projects");
