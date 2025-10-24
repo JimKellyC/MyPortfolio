@@ -22,3 +22,10 @@ projects.forEach((proj) => {
             `;
   projectsContainer.appendChild(card);
 });
+
+
+const toggleButton = document.querySelector('.toggle_button');
+const body = document.body;
+toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+});

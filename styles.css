@@ -5,7 +5,6 @@
 
 body {
   margin: 0;
-  background: black;
   color: #fff;
   font-family: "Poppins", Arial, sans-serif;
   min-height: 100vh;
@@ -17,13 +16,14 @@ body {
   z-index: 1;
   width: 100%;
   height: 40px;
+  background-color: #000;
 }
 
 .navbar ul {
-  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  background-color: #000;
 }
 
 .navbar li {
@@ -48,6 +48,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
 .about h1 {
@@ -116,8 +117,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
   color: #fff;
+  background-color: #000;
 }
 
 .contact a {
@@ -131,9 +132,9 @@ body {
   text-align: center;
   padding: 1.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
-  margin: 1rem auto;
-  max-width: 800px;
+  background-color: #000;
 }
+
 
 @media (max-width: 700px) {
   .navbar ul {
