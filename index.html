@@ -2,37 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Jim-Kelly Clervoyant — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>My Portfolio</title>
+    <meta name="description" content="Portfolio of Jim-Kelly Clervoyant — front-end projects, skills and contact.">
 </head>
 
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a class="nav_links" href="#about">About</a></li>
-            <li><a class="nav_links" href="#projects">Projects</a></li>
-            <li><a class="nav_links" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section class="about" id="about">
-        <h1>Jim-Kelly Clervoyant</h1>
-        <p>This is my portfolio.</p>
-    </section>
-    <section class="section-title">
-        <h1>My Projects</h1>
-    </section>
-    <section class="projects" id="projects">
-        <!-- Done via Javascript -->
-    </section>
-    <section class="contact" id="contact">
-        <h1>Contact Me</h1>
-        <p>Email: <a href="mailto:jimkellyclervoyant@gmail.com">jimkellyclervoyant@gmail.com</a>
-    </section>
-    <footer class="footer">
-        <p>&copy; 2025 Jim-Kelly Clervoyant -- All rights reserved.</p>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#">JK</a>
+            <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <nav id="primary-navigation" class="nav" data-visible="false">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <h1>Hi, I'm Jim-Kelly</h1>
+                <p>Junior developer building thoughtful web experiences — JavaScript · HTML · CSS</p>
+                <div class="hero-cta">
+                    <a class="btn" href="#projects">View Projects</a>
+                    <a class="btn btn-outline" href="#contact">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about container" id="about">
+            <h2>About</h2>
+            <p>I'm a junior developer focused on front-end web development. I build responsive, accessible interfaces and enjoy learning new tools and frameworks through small projects and experiments.</p>
+        </section>
+
+        <section class="projects container" id="projects">
+            <h2>Selected Projects</h2>
+            <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="skills container" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-grid">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section class="contact container" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:jimkellyclervoyant@gmail.com">jimkellyclervoyant@gmail.com</a></p>
+            <p>Find me on <a href="https://github.com/JimKellyC" target="_blank" rel="noopener">GitHub</a>.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Jim-Kelly Clervoyant</p>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 
