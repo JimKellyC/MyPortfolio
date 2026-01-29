@@ -45,17 +45,6 @@ body {
   justify-content: space-between;
   padding: 1rem 0;
 }
-.logo {
-  display: inline-grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--accent), #6ef7d8);
-  color: #022;
-  font-weight: 700;
-  text-decoration: none;
-}
 
 .nav {
   display: flex;
